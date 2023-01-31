@@ -1,9 +1,9 @@
 version: "3.8"
 services:
-    my-app:
-      image: gcr.io/ivory-amplifier-375607/my-app@sha256:c590b377fea7ded93f11b36f114c7c019465c5f7b7f87a972eb9e7600bdf513c
-      ports:
-        - 3000:300
+    # my-app:
+    #   image: #gcp image here
+    #   ports:
+    #     - 3001:3001
     mongodb:
       image: mongo
       ports:
