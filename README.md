@@ -17,7 +17,7 @@ This demo app shows a simple user profile app set up using
 ```bash
 # Step 1 - setup the docker contianers
 
-docker-compose -f docker-compose.yaml
+docker-compose -f docker-compose.yaml up
 
 # Step 2 - start app/sever.js
 
